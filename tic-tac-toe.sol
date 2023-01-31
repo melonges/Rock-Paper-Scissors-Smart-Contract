@@ -1,4 +1,6 @@
-pragma solidity ^0.4.19;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.3;
+
 
 contract TicTacToe {
    function isSolved(int[3][] memory board ) public pure returns (int) {
